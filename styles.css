@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(126, 60, 40);
+    background-image: url("https://i.pinimg.com/736x/a8/af/36/a8af36464224a8c916938a40dbd27049.jpg");
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(252, 252, 252);
+}
+
+#image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #d18662;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(66, 64, 64);
+}
+
+img {
+    border-radius: 20px;
+    margin: 5px;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+#btn {
+    background-color: rgb(121, 119, 95);
+    color: white;
+    padding: 2px 10px;
+    border: 3px rgb(88, 39, 39) solid;
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.knewave-regular {
+  font-family: "Knewave", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+
